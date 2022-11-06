@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main()
+
+{
+	int a = 100;
+
+	int* aPtr;
+	aPtr = &a;
+
+	std::cout << *aPtr << std::endl;
+
+	int b = 50;
+	aPtr = &b;
+
+	std::cout << *aPtr << std::endl;
+
+	system("pause");
+}
