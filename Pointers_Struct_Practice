@@ -18,6 +18,7 @@ int main()
 
 	Container* PtrToCont = &container;
 
+	cout << (*PtrToCont).Name << endl;
 	cout << PtrToCont->Name << endl;
 
 	system("pause");
